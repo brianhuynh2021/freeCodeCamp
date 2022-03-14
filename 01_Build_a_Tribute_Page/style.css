@@ -1,0 +1,22 @@
+#main{
+    background: darkgray;
+    margin: 30px 10px 30px 10px;
+}
+
+#intro{
+    background: rgb(252, 248, 248);
+    margin: 0 10px 0 10px;
+}
+
+#intro img {
+  border-color: red;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 600px;
+}
+
+header{
+    text-align: center;
+}
