@@ -1,0 +1,100 @@
+body {
+  
+    background-color: rgb(187, 177, 177);
+    color:azure;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 16pt;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+
+header {
+    text-align: center;
+    color:rgb(236, 229, 243);
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 2px;
+    font-style: italic;
+}
+
+form {
+    margin: 0 auto;
+    width: 50vw;
+    max-width: 80vw;
+    min-width: 30vw;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background: #1B1b32CC;
+    color: rgb(236, 229, 243);
+    border-radius: 0.25rem;
+}
+
+label {
+    display: block;
+    margin-left: 30px;
+    margin-right: 35px;
+}
+
+input {
+    width: 100%;
+    min-height: 2em;
+    border-radius: 5px;
+}
+fieldset{
+    border: none;
+}
+
+fieldset:first-of-type{
+    margin-bottom: -12px;
+}
+
+#describe-role {
+    position: relative;
+    top: 7px
+}
+
+.select-option {
+    display: block;
+    width: 101%;
+    padding-top: 1px;
+    height: 2.5em;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+#favorite-option {
+    width: 90.6%;
+    margin-left: 30px;
+    
+}
+
+textarea {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 86%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #62eb5b;
+    border-color: white;
+    min-width: 300px;
+  }
