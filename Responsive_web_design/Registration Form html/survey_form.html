@@ -7,13 +7,13 @@
     <body>
         <header>
             <h1 id="title">freeCodeCamp Survey Form</h1>
-            <p id="description">Thank you for taking the time to help us improve the platform</p>
+            <p id="title">Thank you for taking the time to help us improve the platform</p>
         </header>
-        <form method="post" action="https://survey-form.freecodecamp.rocks/">
+        <form id="survey-form" method="post" action="https://survey-form.freecodecamp.rocks/">
             <fieldset>
-                <label>Name <input type="text"></input></label>
-                <label>Email <input type="text"></input></label>
-                <label>Age (optional) <input type="text"></input></label>
+                <label>Name <input id="name" type="text" name="name" value="name"></input></label>
+                <label>Email <input type="text" name="email" value="email"></input></label>
+                <label>Age (optional) <input type="text" name="age" value="age"></input></label>
             </fieldset>
             <fieldset id="describe-role">
                 <label>Which option best describes our current role? 

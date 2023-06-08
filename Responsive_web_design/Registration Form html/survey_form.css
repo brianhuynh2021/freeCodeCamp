@@ -15,7 +15,7 @@ body {
 header {
     text-align: center;
     color:rgb(236, 229, 243);
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 h1 {
@@ -98,3 +98,5 @@ input[type="submit"] {
     border-color: white;
     min-width: 300px;
   }
+
+  
